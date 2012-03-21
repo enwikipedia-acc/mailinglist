@@ -1,193 +1,165 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd"> 
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"> 
- 
  <head>  
   <style type="text/css"><!--
- 
-   /* standard elements */
-   * {
-     margin: 0;
-     padding: 0;
-    }
-   a {
-     color: #36C;
-    }
-   a:hover {
-     color: #06F;
-    }
-   body {
-     background: #efefef;
-     color: #444;
-     font: normal 62.5% "Lucida Sans Unicode",sans-serif;
-     margin: 0;
-    }
-   input {
-     color: #555;
-     font: normal 1.1em "Lucida Sans Unicode",sans-serif;
-    }
-   p,ul {
-     font-size: 1.2em;
-     padding-bottom: 1.2em;
-    }
-   h1 {
-     font-size: 1.4em;
-     margin-bottom: 4px;
-    }
-   h1,h2,h3 {
-     color: #367ea6;
-     padding-top: 6px;
-    }
- 
-   /* misc */
-   .clearer {
-     clear: both;
-    }
- 
-   /* structure */
-   .container {
-     background: #fafafa repeat-y;
-     margin: 0 auto;
-     padding-bottom: 6px;
-     width: 795px;
-    }
-   .header {
-     background-color: #5498be;
-    }
- 
-   /* title */
-   .title {
-     color: #FFF;
-     font: normal 3em Verdana,sans-serif;
-     height: 30px;
-     line-height: 63px;
-     margin-bottom: 8px;
-     text-align: center;
-    }
- 
-   /* navigation */
-   .navigation {
-     margin-bottom: 4px;
-    }
-   .navigation a {
-     background-color: #4A91C3;
-     color: #FFF;
-     float: left;
-     font: bold 1.2em "Trebuchet MS",sans-serif;
-     padding: 8px 0;
-     width: 19%;
-     border-right: 1px solid #FFF;
-     text-align: center;
-     text-decoration: none;
-    }
-   .navigation a:hover {
-     background-color: #000;
-     color: #FFF;
-    }
- 
-   /* main */
-   .main {
-     clear: both;
-     padding: 8px 18px;
-    }
- 
-   /* main left */
-   .sidenav h1,.sidenav ul {
-     padding-left: 12px;
-    }
-   .sidenav {
-     background: #EEE;
-     border: 1px solid #E5E5E5;
-     float: left;
-     width: 200px;
-    }
-   .sidenav h1 {
-     color: #666;
-     font-size: 1.2em;
-     height: 20px;
-     margin-top: 1.2em;
-    }
-   .sidenav ul {
-     border-top: 1px solid #FAFAFA;
-     margin: 0;
-     padding: 0;
-    }
-   .sidenav li {
-     border: 1px solid #FAFAFA;
-     border-top: none;
-     list-style: none;
-     margin: 0;
-    }
-   .sidenav li a {
-     color: #777;
-     display: block;
-     font-size: 0.9em;
-     padding: 3px 6px 3px 14px;
-     text-decoration: none;
-    }
-   .sidenav li a:hover {
-     color: #111;
-    }
- 
-   /* content */
-   .content {
-     float: right;
-     width: 520px;
-    }
-   .content .item {
-     padding: 6px 12px;
-     border: 1px solid #EEE;
-     background: #FFF;
-     margin-bottom: 8px;
-    }
-   .content li {
-     margin-left: 18px;
-     list-style-type: square;
-    }
- 
-   /* search form */
-   form {
-     padding: 0 0 6px 8px;
-    }
-   .styled {
-     border: 1px solid #DDD;
-     padding: 4px;
-    }
-   .button {
-     height: 27px;
-    }
- 
-   /* footer */
-   .footer {
-     background: #FFF;
-     border: 1px solid #EEE;
-     color: #666;
-     font-size: 1.1em;
-     margin: 0 auto;
-     text-align: center;
-     padding: 6px;
-     width: 720px;
-    }
-   .footer a {
-     color: #36C;
-     text-decoration: none;
-    }
-   .footer a:hover {
-     color: #06F;
-     text-decoration: underline;
-    }
- 
-  --></style> 
- 
+  * {
+    margin: 0;
+    padding: 0;
+}
+a {
+    color: #3366CC;
+}
+a:hover {
+    color: #0066FF;
+}
+body {
+    background: none repeat scroll 0 0 #EFEFEF;
+    color: #444444;
+    font: 62.5% "Lucida Sans Unicode",sans-serif;
+    margin: 0;
+}
+input {
+    color: #555555;
+    font: 1.1em "Lucida Sans Unicode",sans-serif;
+}
+p, ul {
+    font-size: 1.2em;
+    padding-bottom: 1.2em;
+}
+h1 {
+    font-size: 1.4em;
+    margin-bottom: 4px;
+}
+h1, h2, h3 {
+    color: #367EA6;
+    padding-top: 6px;
+}
+.clearer {
+    clear: both;
+}
+.container {
+    background: none repeat-y scroll 0 0 #FAFAFA;
+    margin: 0 auto;
+    padding-bottom: 6px;
+}
+.header {
+    background-color: #5498BE;
+}
+.title {
+    color: #FFFFFF;
+    font: 3em/63px Verdana,sans-serif;
+    height: 30px;
+    margin-bottom: 8px;
+    text-align: center;
+}
+.navigation {
+    margin-bottom: 4px;
+}
+.navigation a {
+    background-color: #4A91C3;
+    border-right: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    float: left;
+    font: bold 1.2em "Trebuchet MS",sans-serif;
+    padding: 8px 0;
+    text-align: center;
+    text-decoration: none;
+    width: 19%;
+}
+.navigation a:hover {
+    background-color: #000000;
+    color: #FFFFFF;
+}
+.main {
+    clear: both;
+    padding: 8px 18px;
+}
+.sidenav h1, .sidenav ul {
+    padding-left: 12px;
+}
+.sidenav {
+    background: none repeat scroll 0 0 #EEEEEE;
+    float: left;
+    position: absolute;
+    width: 200px;
+}
+.sidenav h1 {
+    color: #666666;
+    font-size: 1.2em;
+    height: 20px;
+    margin-top: 1.2em;
+}
+.sidenav ul {
+    border-top: 1px solid #FAFAFA;
+    margin: 0;
+    padding: 0;
+}
+.sidenav li {
+    -moz-border-bottom-colors: none;
+    -moz-border-image: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    list-style: none outside none;
+    margin: 0;
+}
+.sidenav li a {
+    color: #777777;
+    display: block;
+    font-size: 0.9em;
+    padding: 3px 6px 3px 14px;
+    text-decoration: none;
+}
+.sidenav li a:hover {
+    color: #111111;
+}
+.content {
+    float: right;
+    padding-left: 210px;
+    position: static;
+}
+.content .item {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #EEEEEE;
+    margin-bottom: 8px;
+    padding: 6px 12px;
+}
+.content li {
+    list-style-type: square;
+    margin-left: 18px;
+}
+form {
+    padding: 0 0 6px 8px;
+}
+.styled {
+    border: 1px solid #DDDDDD;
+    padding: 4px;
+}
+.button {
+    height: 27px;
+}
+.footer {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #EEEEEE;
+    margin-bottom: 8px;
+    margin-left: 228px;
+    margin-right: 18px;
+    padding: 6px 12px;
+}
+.footer a {
+    color: #3366CC;
+    text-decoration: none;
+}
+.footer a:hover {
+    color: #0066FF;
+    text-decoration: underline;
+}
+--></style> 
   <title><MM-List-Name> Info Page</title> 
- 
- </head> 
- 
+ </head>  
  <body> 
- 
   <div class="container"> 
- 
    <!-- Opening decorative shadow divs --> 
- 
    <div style="border-left: #eeeeee 1px solid; border-right: #eeeeee 1px solid"> 
    <div style="border-left: #e6e6e6 1px solid; border-right: #e6e6e6 1px solid"> 
    <div style="border-left: #dedede 1px solid; border-right: #dedede 1px solid"> 
@@ -202,22 +174,13 @@
    <div style="border-left: #989898 1px solid; border-right: #989898 1px solid"> 
    <div style="border-left: #888888 1px solid; border-right: #888888 1px solid"> 
    <div style="border-left: #808080 1px solid; border-right: #808080 1px solid"> 
- 
    <div class="main"> 
- 
-    <div class="header"> 
-		
-     <h1 style="z-index: 1; position: absolute; color: #FFF; font: normal 3em Verdana,sans-serif; text-align: center; height: 150px; width: 730px; 
-line-height: 63px; margin-bottom: 8px;">Accounts-enwiki-l Mailing List</h1> 
- 
+     <div class="header"> 
+     <h1 style="z-index: 1; position: absolute; color: #FFF; font: normal 3em Verdana,sans-serif; text-align: center; height: 150px; width: 100%; line-height: 63px; margin-bottom: 8px;">Accounts-enwiki-l Mailing List</h1> 
      <div style="background-color: #68aace; height: 45px;"></div> 
- 
      <div class="title"></div> 
- 
     </div> 
- 
     <div class="content"> 
- 
      <div class="item"> 
       <a id="About Accounts-enwiki-l"></a>
       <h1>About <MM-List-Name></h1> 	  
@@ -230,7 +193,6 @@ line-height: 63px; margin-bottom: 8px;">Accounts-enwiki-l Mailing List</h1>
 	      <MM-Restricted-List-Message>
       </p>
      </div> 
-	
      <div class="item"> 
       <a id="Using Accounts-enwiki-l"></a> 
       <h1>How to post to <MM-List-Name></h1> 
@@ -244,55 +206,46 @@ line-height: 63px; margin-bottom: 8px;">Accounts-enwiki-l Mailing List</h1>
        All e-mails you send to this mailing list will be available on private web archives, on Wikimedia servers.
       </p> 
      </div> 
- 
      <div class="item"> 
       <a id="Subscription to Accounts-enwiki-l"></a> 
       <MM-Subscribe-Form-Start>
        <h1>Subscribing to <MM-List-Name></h1> 
        <p> 
-        You can subscribe by filling out the following form. You will be sent email requesting confirmation, to prevent others from gratuitously 
-subscribing you.  Once confirmation is received, your request will be held for approval by the list moderators.  You will be notified of one of the 
-moderator's decision by email.
+        You can subscribe by filling out the following form. You will be sent email requesting confirmation, to prevent others from gratuitously subscribing you.  Once confirmation is received, your request will be held for approval by the list moderators.  You will be notified of one of the moderator's decision by email.
        </p>
 	   <p>
 	   This is also a private list, which means that the list of members is not available to non-members.
 	   </p>
        <p> 
-        Your e-mail address: &nbsp; <MM-Subscribe-Box>
+        Your e-mail address:   <MM-Subscribe-Box>
        </p> 
        <p> 
-        Your name or username: &nbsp; <mm-fullname-box>
+        Your name or username:   <mm-fullname-box>
        </p> 
 	   <p>
-	   In addition, you will need to email us using the Emailuser function to verify your account: &nbsp; <a 
-href="http://en.wikipedia.org/w/index.php?title=Special:Emailuser/Accounts-enwiki-l&wpSubject=Accounts-enwiki-l Identification&wpText=I would like to 
-subscribe to the Accounts-enwiki-l mailing list, and am a trusted user on the English Wikipedia. I have applied on the main page, and am sending this 
-email to identify my username.">To do so, click here.</a>
+	   In addition, you will need to email us using the Emailuser function to verify your account:   <a href="http://en.wikipedia.org/w/index.php?title=Special:Emailuser/Accounts-enwiki-l&wpSubject=Accounts-enwiki-l Identification&wpText=I would like to subscribe to the Accounts-enwiki-l mailing list, and am a trusted user on the English Wikipedia. I have applied on the main page, and am sending this email to identify my username.">To do so, click here.</a>
        <p> 
         You can enter a privacy password below. This provides only mild security, but should prevent others from messing with your subscription. 
-<span style="font-weight:bold">Do not use a valuable password</span> as it will occasionally be e-mailed back to you in <a 
-href="http://en.wikipedia.org/wiki/Cleartext">cleartext</a>.
+<span style="font-weight:bold">Do not use a valuable password</span> as it will occasionally be e-mailed back to you in <a href="http://en.wikipedia.org/wiki/Cleartext">cleartext</a>.
        </p> 
        <p> 
-        If you choose not to enter a password, one will be automatically generated for you, and it will be sent to you once you've confirmed your 
-subscription.  You can always request a mail-back of your password when you <a href="#Options">edit your personal options</a>.
+        If you choose not to enter a password, one will be automatically generated for you, and it will be sent to you once you've confirmed your subscription.  You can always request a mail-back of your password when you <a href="#Options">edit your personal options</a>.
        </p> 
        <p> 
-        Password: &nbsp; <MM-New-Password-Box>
+        Password:   <MM-New-Password-Box>
        </p> 
        <p> 
-        Re-enter password to confirm: &nbsp; <MM-Confirm-Password> 
+        Re-enter password to confirm:   <MM-Confirm-Password> 
        </p> 
        <p> 
         <mm-digest-question-start> Would you prefer to receive all list e-mails separately, or together in a single daily digest e-mail?<br /> 
-        <center> <MM-Undigest-Radio-Button> Separate e-mails &nbsp; <MM-Digest-Radio-Button>  Daily Digest </center>
+        <center> <MM-Undigest-Radio-Button> Separate e-mails   <MM-Digest-Radio-Button>  Daily Digest </center>
        </p> <mm-digest-question-end>
        <p style="text-align: center"> 
         <MM-Subscribe-Button>
        </p> 
       <MM-Form-End> 
      </div> 
- 
      <div class="item"> 
       <a id="Accounts-enwiki-l Subscriber List"></a> 
       <h1><MM-List-Name> Subscriber List</h1> 
@@ -309,13 +262,11 @@ subscription.  You can always request a mail-back of your password when you <a h
 		        </p> 
       </div>
      </div> 
-	 
      <div class="item"> 
       <a id="Accounts-enwiki-l Subscribers"></a> 
       <h1>Changing options and unsubscribing</h1> 
       <p> 
-       To change your mailing list options (such as to turn off mailings) or to unsubscribe completely from the mailing list, please log in with your 
-e-mail address below.
+       To change your mailing list options (such as to turn off mailings) or to unsubscribe completely from the mailing list, please log in with your e-mail address below.
       </p> 
       <p> 
        You will be asked to provide your mailing list password. If cannot remember it, you will be able to request a password reminder.
@@ -329,26 +280,24 @@ e-mail address below.
        If you leave the field blank, you will be prompted for your email address.
       </p> 	  
      </div> 
- 
-     <div class="item"> 
+      <div class="item"> 
       <a id="Admins"></a> 
       <h1>Administrators and Moderators</h1> 
       <p> 
-       The Accounts-enwiki-l mailing list administrators and moderators can be contacted collectively by e-mail at <span 
-style="font-weight:bold">accounts-enwiki-l-owner a<span style="font-size:1px">&nbsp;</span>t lists.wikimedia.org</span> 
+       The Accounts-enwiki-l mailing list administrators and moderators can be contacted collectively by e-mail at <span style="font-weight:bold">accounts-enwiki-l-owner a<span style="font-size:1px"> </span>t lists.wikimedia.org</span> 
       </p> 
       <p> 
        The active Accounts-enwiki-l mailing list administrators and moderators are:
       </p> 
       <ul> 
-       <li><a href="http://en.wikipedia.org/wiki/User:Stwalkerster">Stwalkerster</a></li> 
-       <li><a href="http://en.wikipedia.org/wiki/User:Prodego">Prodego</a></li> 
-       <li><a href="http://en.wikipedia.org/wiki/User:Thehelpfulone">Thehelpfulone</a></li>  
+       <li><a href="http://en.wikipedia.org/wiki/User:Stwalkerster">Stwalkerster</a></li>
+       <!--<li><a href="http://en.wikipedia.org/wiki/User:Prodego">Prodego</a></li>
+       <li><a href="http://en.wikipedia.org/wiki/User:Thehelpfulone">Thehelpfulone</a></li>-->
+       <li><a href="http://en.wikipedia.org/wiki/User:Mlpearc">Mlpearc</a></li>
+       <li><a href="http://en.wikipedia.org/wiki/User:DeltaQuad">DeltaQuad</a></li><!--<li><a href="http://en.wikipedia.org/wiki/User:Gfoley4">Gfoley4</a></li>-->
       </ul> 
      </div> 
- 
     </div> 
- 
     <div class="sidenav"> 
      <h1>Table of Contents </h1> 
      <ul> 
@@ -357,9 +306,7 @@ style="font-weight:bold">accounts-enwiki-l-owner a<span style="font-size:1px">&n
       <li><a href="#Accounts-enwiki-l Subscribers">Unsubscribe from this list</a></li> 
       <li><a href="#Accounts-enwiki-l Subscribers">Change subscription options</a></li> 
       <li><a href="#Admins">List administrators</a></li> 
- 
      </ul> 
- 
      <h1>Useful Links</h1> 
      <ul> 
       <li style="background-color:#dddddd"><a href="https://lists.wikimedia.org/mailman/options/accounts-enwiki-l">Membership options login</a></li> 
@@ -367,7 +314,6 @@ style="font-weight:bold">accounts-enwiki-l-owner a<span style="font-size:1px">&n
       <li style="background-color:#e8e8e8"><a href="https://lists.wikimedia.org/mailman/admindb/accounts-enwiki-l">Moderation interface</a></li> 
       <li><a href="https://lists.wikimedia.org/mailman/private/accounts-enwiki-l/">Private Archive of prior postings</a></li> 
      </ul> 
-	 
      <h1>Other Mailing Lists</h1> 
      <ul> 
       <li style="background-color:#dddddd"><a href="https://lists.wikimedia.org/mailman/listinfo/wikipedia-l">Wikipedia-l</a></li> 
@@ -376,17 +322,12 @@ style="font-weight:bold">accounts-enwiki-l-owner a<span style="font-size:1px">&n
       <li><a href="http://meta.wikimedia.org/wiki/Mailing_lists/Overview">Full list on Meta</a></li> 
      </ul> 
     </div> 
-	
     <div class="clearer"><span></span></div> 
- 
    </div> 
- 
    <div class="footer"> 
     This mailing list is powered by <a href="http://www.list.org/">Mailman</a>, the <a href="http://www.gnu.org">GNU</a> Mailing List Manager.<br /> 
-    Page based upon a design by <a href="http://templates.arcsin.se">Arcsin</a>, licensed under the <a 
-href="http://creativecommons.org/licenses/by/2.5/">Creative Commons Attribution 2.5 License</a>.
+    Page based upon a design by <a href="http://templates.arcsin.se">Arcsin</a>, licensed under the <a href="http://creativecommons.org/licenses/by/2.5/">Creative Commons Attribution 2.5 License</a>.
    </div> 
- 
    <!-- Closing out decorative shadow divs --> 
    </div> 
    </div> 
@@ -402,9 +343,7 @@ href="http://creativecommons.org/licenses/by/2.5/">Creative Commons Attribution 
    </div> 
    </div> 
    </div> 
- 
   </div> 
- 
  </body> 
- 
+<!-- Tell the WikiTruth. --> 
 </html> 

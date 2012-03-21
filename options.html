@@ -1,0 +1,470 @@
+<head> 
+ 
+  <style type="text/css"><!--
+ 
+   /* standard elements */
+   * {
+     margin: 0;
+     padding: 0;
+    }
+   a {
+     color: #36C;
+    }
+   a:hover {
+     color: #06F;
+    }
+   body {
+     background: #efefef;
+     color: #444;
+     font: normal 62.5% "Lucida Sans Unicode",sans-serif;
+     margin: 0;
+    }
+   input {
+     color: #555;
+     font: normal 1.1em "Lucida Sans Unicode",sans-serif;
+    }
+   p,ul {
+     font-size: 1.2em;
+     padding-bottom: 1.2em;
+    }
+   h1 {
+     font-size: 1.4em;
+     margin-bottom: 4px;
+    }
+   h1,h2,h3 {
+     color: #367ea6;
+     padding-top: 6px;
+    }
+ 
+   /* misc */
+   .clearer {
+     clear: both;
+    }
+ 
+   /* structure */
+   .container {
+     background: #fafafa repeat-y;
+     margin: 0 auto;
+     padding-bottom: 6px;
+     width: 795px;
+    }
+   .header {
+     background-color: #5498be;
+    }
+ 
+   /* title */
+   .title {
+     color: #FFF;
+     font: normal 3em Verdana,sans-serif;
+     height: 30px;
+     line-height: 63px;
+     margin-bottom: 8px;
+     text-align: center;
+    }
+ 
+   /* navigation */
+   .navigation {
+     margin-bottom: 4px;
+    }
+   .navigation a {
+     background-color: #4A91C3;
+     color: #FFF;
+     float: left;
+     font: bold 1.2em "Trebuchet MS",sans-serif;
+     padding: 8px 0;
+     width: 19%;
+     border-right: 1px solid #FFF;
+     text-align: center;
+     text-decoration: none;
+    }
+   .navigation a:hover {
+     background-color: #000;
+     color: #FFF;
+    }
+ 
+   /* main */
+   .main {
+     clear: both;
+     padding: 8px 18px;
+    }
+ 
+   /* main left */
+   .sidenav h1,.sidenav ul {
+     padding-left: 12px;
+    }
+   .sidenav {
+     background: #EEE;
+     border: 1px solid #E5E5E5;
+     float: left;
+     width: 200px;
+    }
+   .sidenav h1 {
+     color: #666;
+     font-size: 1.2em;
+     height: 20px;
+     margin-top: 1.2em;
+    }
+   .sidenav ul {
+     border-top: 1px solid #FAFAFA;
+     margin: 0;
+     padding: 0;
+    }
+   .sidenav li {
+     border: 1px solid #FAFAFA;
+     border-top: none;
+     list-style: none;
+     margin: 0;
+    }
+   .sidenav li a {
+     color: #777;
+     display: block;
+     font-size: 0.9em;
+     padding: 3px 6px 3px 14px;
+     text-decoration: none;
+    }
+   .sidenav li a:hover {
+     color: #111;
+    }
+ 
+   /* content */
+   .content {
+     float: right;
+     width: 520px;
+    }
+   .content .item {
+     padding: 6px 12px;
+     border: 1px solid #EEE;
+     background: #FFF;
+     margin-bottom: 8px;
+    }
+   .content li {
+     margin-left: 18px;
+     list-style-type: square;
+    }
+ 
+   /* search form */
+   form {
+     padding: 0 0 6px 8px;
+    }
+   .styled {
+     border: 1px solid #DDD;
+     padding: 4px;
+    }
+   .button {
+     height: 27px;
+    }
+ 
+   /* footer */
+   .footer {
+     background: #FFF;
+     border: 1px solid #EEE;
+     color: #666;
+     font-size: 1.1em;
+     margin: 0 auto;
+     text-align: center;
+     padding: 6px;
+     width: 720px;
+    }
+   .footer a {
+     color: #36C;
+     text-decoration: none;
+    }
+   .footer a:hover {
+     color: #06F;
+     text-decoration: underline;
+    }
+	table.optionstable {
+		font-size: 1.0em;
+	}
+	
+	table.passwordtable {
+		font-size: 1.0em;
+	}
+  --></style> 
+ 
+  <title><MM-Presentable-User> membership configuration for <MM-List-Name></title> 
+ 
+ </head> 
+ 
+ <body> 
+ 
+  <div class="container"> 
+ 
+   <!-- Opening decorative shadow divs --> 
+ 
+   <div style="border-left: #eeeeee 1px solid; border-right: #eeeeee 1px solid"> 
+   <div style="border-left: #e6e6e6 1px solid; border-right: #e6e6e6 1px solid"> 
+   <div style="border-left: #dedede 1px solid; border-right: #dedede 1px solid"> 
+   <div style="border-left: #d6d6d6 1px solid; border-right: #d6d6d6 1px solid"> 
+   <div style="border-left: #cfcfcf 1px solid; border-right: #cfcfcf 1px solid"> 
+   <div style="border-left: #c6c7c7 1px solid; border-right: #c6c7c7 1px solid"> 
+   <div style="border-left: #bfbfbf 1px solid; border-right: #bfbfbf 1px solid"> 
+   <div style="border-left: #b7b7b7 1px solid; border-right: #b7b7b7 1px solid"> 
+   <div style="border-left: #afafaf 1px solid; border-right: #afafaf 1px solid"> 
+   <div style="border-left: #a7a7a7 1px solid; border-right: #a7a7a7 1px solid"> 
+   <div style="border-left: #9f9f9f 1px solid; border-right: #9f9f9f 1px solid"> 
+   <div style="border-left: #989898 1px solid; border-right: #989898 1px solid"> 
+   <div style="border-left: #888888 1px solid; border-right: #888888 1px solid"> 
+   <div style="border-left: #808080 1px solid; border-right: #808080 1px solid"> 
+ 
+   <div class="main"> 
+ 
+    <div class="header"> 
+		
+     <h1 style="z-index: 1; position: absolute; color: #FFF; font: normal 3em Verdana,sans-serif; text-align: center; height: 150px; width: 730px; line-height: 63px; margin-bottom: 8px;">Accounts-enwiki-l Membership Configuration</h1> 
+ 
+     <div style="background-color: #68aace; height: 45px;"></div> 
+ 
+     <div class="title"></div> 
+ 
+    </div> 
+ 
+    <div class="content"> 
+ 
+     <div class="item"> 
+      <a id="Info"></a>
+      <h1><MM-List-Name> membership configuration for <MM-Presentable-User></h1> 	  
+      <p> 
+       <b><MM-Presentable-User></b>'s subscription status, password, and options for the <MM-List-Name> mailing list. <MM-Form-Start><mm-logout-button><MM-Form-End></p> 
+     </div> 
+	
+     <div class="item"> 
+      <a id="Changeinformation"></a> 
+	  <MM-Form-Start>
+      <h1>Changing your <MM-List-Name> membership information</h1> 
+      <p> 
+       You can change the address that you are subscribed to the mailing list with by entering the new address in the fields below.  Note that a confirmation email will be sent to the new address, and the change must be confirmed before it is processed. </p>
+      <p>Confirmations time out after about <mm-pending-days>.</p>
+      <p>You can also optionally set or change your real name (i.e. <em>John Smith</em>).</p>
+      <p>If you want to make the membership changes for all the lists that you are subscribed to at <mm-host>, turn on the <em>Change globally</em> check box.</p> 
+	  <p> New address:   <mm-new-address-box></p> 
+      <p> Again to confirm:   <mm-confirm-address-box></p> 
+	  <p> Your name (optional):   <mm-fullname-box></p> 
+	   <p style="text-align: center"> 
+        <mm-change-address-button>
+		<p><mm-global-change-of-address>Change globally</p></p> 
+     </div> 
+ 
+     <div class="item"> 
+      <a id="Unsubscribing"></a> 
+       <h1>Unsubscribing from <MM-List-Name></h1> 
+       <p> 
+        Turn on the confirmation checkbox and hit this button to unsubscribe from this mailing list.  <strong>Warning:</strong> This action will be taken immediately!
+        <center><MM-Unsubscribe-Button></center></td></p>
+     </div> 
+ 
+      <div class="item"> 
+      <a id="OtherSubscriptions"></a> 
+      <MM-Subscribe-Form-Start>
+       <h1>Your other <MM-Host> subscriptions</h1> 
+       <p> 
+        You can view a list of all the other mailing lists at <mm-host> for which you are a member.  Use this if you want to make the same membership option changes to this other subscriptions.
+        <center><MM-Other-Subscriptions-Submit></center>
+     </div> 
+ 
+     <div class="item">
+      <a id="Password"></a>
+      <h1>Your <MM-List-Name> Password</h1>
+	<table class="passwordtable">
+	<tr><td><h3>Forgotten Your Password?</h3><p>Click this button to have your password emailed to your
+        membership address.</p></td><td colspan="2"><h3>Change your Password</h3></td></tr> 
+	<tr><td rowspan="4"><MM-Umbrella-Notice><MM-Email-My-Pw></td><td>New password:</td><td><MM-New-Pass-Box></td></tr>
+	<tr><td>Again to confirm:</td><td><MM-Confirm-Pass-Box></td></tr>
+	<tr><td>Change globally?</td><td><mm-global-pw-changes-button></td></tr>
+	<tr><td colspan="2"><MM-Change-Pass-Button></td></tr>
+	</table>
+     </div>
+	 
+     <div class="item"> 
+      <a id="SubscriptionOptions"></a> 
+      <h1>Your <MM-List-Name> Subscription Options</h1> 
+      <p> 
+	  <i><strong>Current values are checked.</strong></i>
+	  <p>Note that some of the options have a <em>Set globally</em>checkbox.  Checking this field will cause the changes to be made to every mailing list that you are a member of on <mm-host>.  Click on <em>List my other subscriptions</em> above to see which other mailing lists you are subscribed to.
+      <p>
+	  
+<TABLE BORDER="0" CELLSPACING="3" CELLPADDING="4" WIDTH="100%" class="optionstable">
+    <tr><TD BGCOLOR="#cccccc">
+        <a name="disable">
+        <strong>Mail delivery</strong></a><p>
+        Set this option to <em>Enabled</em> to receive messages posted
+        to this mailing list.  Set it to <em>Disabled</em> if you want
+        to stay subscribed, but don't want mail delivered to you for a
+        while (e.g. you're going on vacation).  If you disable mail
+        delivery, don't forget to re-enable it when you come back; it
+        will not be automatically re-enabled.
+        </td><td bgcolor="#cccccc">
+        <mm-delivery-enable-button>Enabled<br>
+        <mm-delivery-disable-button>Disabled<p>
+        <mm-global-deliver-button><i>Set globally</i>
+        </td></tr>
+
+    <tr><TD BGCOLOR="#cccccc">
+        <strong>Set Digest Mode</strong><p>
+        If you turn digest mode on, you'll get posts bundled together
+        (usually one per day but possibly more on busy lists), instead
+        of singly when they're sent.  If digest mode is changed from
+        on to off, you may receive one last digest.
+        </td><td bgcolor="#cccccc">
+        <MM-Undigest-Radio-Button>Off<br>
+        <MM-Digest-Radio-Button>On
+        </td></tr>
+        
+    <tr><TD BGCOLOR="#cccccc">
+        <strong>Get MIME or Plain Text Digests?</strong><p>
+        Your mail reader may or may not support MIME digests.  In
+        general MIME digests are preferred, but if you have a problem
+        reading them, select plain text digests.
+        </td><td bgcolor="#cccccc">
+        <MM-Mime-Digests-Button>MIME<br>
+        <MM-Plain-Digests-Button>Plain Text<p>
+        <mm-global-mime-button><i>Set globally</i>
+        </td></tr>
+        
+    <tr><TD BGCOLOR="#cccccc">
+        <strong>Receive your own posts to the list?</strong><p>
+        Ordinarily, you will get a copy of every message you post to
+        the list.  If you don't want to receive this copy, set this
+        option to <em>No</em>.
+        </td><td bgcolor="#cccccc">
+        <mm-dont-receive-own-mail-button>No<br>
+        <mm-receive-own-mail-button>Yes
+        </td></tr>
+
+    <tr><TD BGCOLOR="#cccccc">
+        <strong>Receive acknowledgement mail when you send mail to
+        the list?</strong><p>
+        </td><td bgcolor="#cccccc">
+        <mm-dont-ack-posts-button>No<br>
+        <mm-ack-posts-button>Yes
+        </td></tr>
+
+    <tr><td bgcolor="#cccccc">
+        <strong>Get password reminder email for this list?</strong><p>
+        Once a month, you will get an email containing a password
+        reminder for every list at this host to which you are
+        subscribed.  You can turn this off on a per-list basis by
+        selecting <em>No</em> for this option.  If you turn off
+        password reminders for all the lists you are subscribed to, no
+        reminder email will be sent to you.
+        </td><td bgcolor="#cccccc">
+        <mm-dont-get-password-reminder-button>No<br>
+        <mm-get-password-reminder-button>Yes<p>
+        <mm-global-remind-button><i>Set globally</i>
+        </td></tr>
+
+    <tr><TD BGCOLOR="#cccccc">
+        <strong>Conceal yourself from subscriber list?</strong><p>
+        When someone views the list membership, your email address is
+        normally shown (in an obscured fashion to thwart spam
+        harvesters).  If you do not want your email address to show up
+        on this membership roster at all, select <em>Yes</em> for this option. <em>Note that the list can only be viewed by list members.</em>
+        </td><td bgcolor="#cccccc">
+        <MM-Public-Subscription-Button>No<br>
+        <MM-Hide-Subscription-Button>Yes
+        </td></tr>
+
+    <tr><td bgcolor="#cccccc">
+        <strong>Avoid duplicate copies of messages?</strong><p>
+
+                When you are listed explicitly in the <tt>To:</tt> or
+                <tt>Cc:</tt> headers of a list message, you can opt to
+                not receive another copy from the mailing list.
+                Select <em>Yes</em> to avoid receiving copies from the
+                mailing list; select <em>No</em> to receive copies.
+
+                <p>If the list has member personalized messages
+                enabled, and you elect to receive copies, every copy
+                will have a <tt>X-Mailman-Copy: yes</tt> header added
+                to it.
+
+        </td><td bgcolor="#cccccc">
+        <mm-receive-duplicates-button>No<br>
+        <mm-dont-receive-duplicates-button>Yes<p>
+        <mm-global-nodupes-button><i>Set globally</i>
+        </td></tr>
+
+    <tr><TD colspan="2">
+        <center><MM-options-Submit-button></center>
+        </td></tr>
+
+</table>
+      <MM-Form-End>
+     </div> 
+ 
+     <div class="item"> 
+      <a id="Admins"></a> 
+      <h1>Administrators and Moderators</h1> 
+      <p> 
+       The Accounts-enwiki-l mailing list administrators and moderators can be contacted collectively by e-mail at <span style="font-weight:bold">accounts-enwiki-l-owner a<span style="font-size:1px"> </span>t lists.wikimedia.org</span> 
+      </p> 
+      <p> 
+       The active Accounts-enwiki-l mailing list administrators and moderators are:
+      </p> 
+      <ul> 
+       <li><a href="http://en.wikipedia.org/wiki/User:Prodego">Prodego</a></li> 
+       <li><a href="http://en.wikipedia.org/wiki/User:Thehelpfulone">Thehelpfulone</a></li> 
+       <li><a href="http://en.wikipedia.org/wiki/User:Stwalkerster">Stwalkerster</a></li> 
+      </ul> 
+     </div> 
+ 
+    </div> 
+ 
+    <div class="sidenav"> 
+     <h1>Table of Contents </h1> 
+     <ul> 
+      <li style="background-color:#dddddd"><a href="#Using Accounts-enwiki-l">Posting to this list</a></li> 
+      <li style="background-color:#e8e8e8"><a href="#Subscribing">Subscribing to this list</a></li> 
+      <li><a href="#Accounts-enwiki-l Subscribers">Unsubscribe from this list</a></li> 
+      <li><a href="#Accounts-enwiki-l Subscribers">Change subscription options</a></li> 
+      <li><a href="#Admins">List administrators</a></li> 
+ 
+     </ul> 
+ 
+     <h1>Useful Links</h1> 
+     <ul> 
+      <li style="background-color:#dddddd"><a href="https://lists.wikimedia.org/mailman/options/accounts-enwiki-l">Membership options login</a></li> 
+      <li style="background-color:#e1e1e1"><a href="https://lists.wikimedia.org/mailman/admin/accounts-enwiki-l">Administrative interface</a></li> 
+      <li style="background-color:#e8e8e8"><a href="https://lists.wikimedia.org/mailman/admindb/accounts-enwiki-l">Moderation interface</a></li> 
+      <li><MM-Archive>Private Archive of prior postings</MM-Archive></li> 
+     </ul> 
+	 
+     <h1>Other Mailing Lists</h1> 
+     <ul> 
+      <li style="background-color:#dddddd"><a href="https://lists.wikimedia.org/mailman/listinfo/wikipedia-l">Wikipedia-l</a></li> 
+	  <li style="background-color:#e1e1e1"><a href="https://lists.wikimedia.org/mailman/listinfo/wikien-l">Wikien-l</a></li> 
+      <li style="background-color:#e8e8e8"><a href="https://lists.wikimedia.org/mailman/listinfo">Overview of all wikimedia mailing lists</a></li> 
+      <li><a href="http://meta.wikimedia.org/wiki/Mailing_lists/overview">Full list on Meta</a></li> 
+     </ul> 
+    </div> 
+	
+    <div class="clearer"><span></span></div> 
+ 
+   </div> 
+ 
+   <div class="footer"> 
+    This mailing list is powered by <a href="http://www.list.org/">Mailman</a>, the <a href="http://www.gnu.org">GNU</a> Mailing List Manager.<br /> 
+    Page based upon a design by <a href="http://templates.arcsin.se">Arcsin</a>, licensed under the <a href="http://creativecommons.org/licenses/by/2.5/">Creative Commons Attribution 2.5 License</a>.
+   </div> 
+ 
+   <!-- Closing out decorative shadow divs --> 
+   </div> 
+   </div> 
+   </div> 
+   </div> 
+   </div> 
+   </div> 
+   </div> 
+   </div> 
+   </div> 
+   </div> 
+   </div> 
+   </div> 
+   </div> 
+   </div> 
+ 
+  </div> 
+ 
+ </body> 
+ 
+</html>
